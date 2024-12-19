@@ -65,11 +65,16 @@ Archivos Necesarios:
    python main.py
 
    Siga las opciones del menú:
-   - 1 : Obtener y guardar álbumes desde la API.
-   - 2 : Obtener y guardar fotos desde la API.
-   - 3 : Ver álbumes almacenados en la base de datos.
-   - 4 : Ver fotos almacenadas en la base de datos.
-   - 5 : Salir del programa.
+   - 01 : Obtener y guardar álbumes desde la API.
+   - 02 : Obtener y guardar fotos desde la API.
+   - 03 : Ver álbumes almacenados en la base de datos.
+   - 04 : Ver fotos almacenadas en la base de datos.
+   - 05 : Crear un álbum en la API (POST).
+   - 06 : Actualizar un álbum en la API (PUT).
+   - 07 : Borrar un álbum en la API (DELETE).
+   - 08 : Encriptar y desencriptar contraseña.
+   - 09 : Realizar búsqueda con la API de Google (Serper).
+   - 10 : Salir del programa.
 
 3. prueba_conexion.py Verifica si la conexión con la base de datos es exitosa.
 
@@ -125,7 +130,3 @@ Si el archivo clave.key no existe, el sistema generará uno automáticamente.
 
 API Key de Serper:
 Asegúrese de configurar su clave de API en el archivo servicios/serper_test.py.
-
-Menú de main.py:
-El menú indicará un error si se ejecuta la opción 2 antes de la 1.
-Ejecute la 1 para resolver.

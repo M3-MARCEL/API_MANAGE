@@ -1,10 +1,10 @@
 import pymysql
+from auxiliares.config_db import DB_HOST, DB_USER, DB_PASSWORD, DB_NAME
 
 def obtener_conexion():
     return pymysql.connect(
-        host='localhost',
-        user='root',
-        password='',
-        database='api_manage',
-        charset='utf8mb4'
+        host=DB_HOST,
+        user=DB_USER,
+        password=DB_PASSWORD,
+        database=DB_NAME
     )
