@@ -1,7 +1,0 @@
-auxiliares/config_db.py
-*.pyc
-__pycache__/
-.vscode/
-.env/
-.DS_Store
-Thumbs.db
